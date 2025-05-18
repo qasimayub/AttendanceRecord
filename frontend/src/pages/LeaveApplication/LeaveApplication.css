@@ -1,0 +1,47 @@
+.leave-application {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .multiform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .multiform input, .multiform textarea {
+    width: max(60%, 300px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid grey;
+    outline-color: #256497;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .leave-application button {
+    width: max(8vw, 80px);
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #256497;
+  }
+  
+  .leave-application button:hover {
+    background-color: #5389b5;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 450px) {
+    .multiform input, .multiform textarea {
+      width: 90%;
+    }
+  }
+  

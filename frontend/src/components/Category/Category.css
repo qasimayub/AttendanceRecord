@@ -1,0 +1,28 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 20px;
+    width: 25%;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #00000015;
+    animation: fadeIn 1s;
+    padding: 30px 15px;
+}
+
+.category:hover {
+    cursor: pointer;
+    background-color: #fafcfe;
+    scale: 1.05;
+}
+
+.category-img {
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+.category h3{
+    padding: 15px;
+    font-weight: 500;
+}

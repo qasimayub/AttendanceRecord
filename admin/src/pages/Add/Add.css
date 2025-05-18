@@ -1,0 +1,57 @@
+.add-user {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.image img{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.image img:hover {
+    cursor: pointer;
+}
+
+.multiform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.isAdmin {
+    display: flex;
+    gap: 20px;
+}
+.multiform input, .multiform textarea {
+    width: max(60%,300px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid grey;
+    outline-color: #256497;
+}
+
+.add-user button {
+    width: max(8vw,80px);
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #256497;
+}
+
+.add-user button:hover {
+    background-color: #5389b5;
+    cursor: pointer;
+}
+
+@media (max-width:450px) {
+    .multiform input, .multiform textarea{
+        width: 90%;
+    }
+    .price input {
+        width: 45px;
+    }
+}

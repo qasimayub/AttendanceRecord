@@ -1,0 +1,16 @@
+.category-display {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.category-display h1 {
+    font-weight: 500;
+}
+
+.category-list {
+    display: flex;
+    gap: 30px;
+    
+}
