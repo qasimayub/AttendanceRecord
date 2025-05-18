@@ -5,7 +5,7 @@ import axios from "axios";
 
 const StoreContextProvider = (props) => {
   const url = "http://localhost:4000";
-  const [login, setLogin] = useState(false)
+  const [login, setLogin] = useState(true)
   const [attendanceRecords, setAttendanceRecords] = useState([]);
   const [users, setUsers] = useState([]);
   const [admin, setAdmin] = useState(0)
